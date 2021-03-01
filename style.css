@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box ;
+}
+body{
+    background-color: rgb(66, 66, 131);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+    margin-top: 20vh;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: rgb(21, 21, 34) 1px 3px 2px;
+}
+.fundo{
+    width: 60vh;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+}
+.contact-form{
+    display: grid;
+    width: 45vh;
+    margin: auto;
+}
+input[type="text"]{
+    border-radius: 7px;
+    border: none;
+    height: 5vh;
+    margin-bottom: 2vh;
+    background-color: rgb(164, 164, 214) ;
+    font-size: 2.5vh;
+    padding-left: 1.5vh;
+    box-shadow: rgb(21, 21, 34) 0px 2px 1px;
+    font-weight: bolder;
+    color: white;
+}
+textarea{
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 2.5vh; 
+    margin-bottom: 2vh;
+    background-color: rgb(164, 164, 214);
+    height: 20vh;
+    padding-left: 1.5vh;
+    box-shadow: rgb(21, 21, 34) 0px 2px 1px;
+    resize: none;
+    font-weight: bolder;
+    color: white;
+
+}
+
+button{
+    background-color: rgb(214, 111, 43);
+    color: white;
+    border: none;
+    height: 5vh;
+    width: 20vh;
+    justify-self: center;
+    margin-top: 3vh;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+button:hover{
+    transition: 0.3s;
+    background-color: rgb(189, 29, 29);
+    box-shadow: #000 0px 4px 1px;
+}
